@@ -3,15 +3,20 @@ export type ButtonProps = {
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 
-const Button = ({ children, className }: ButtonProps) => {
-    return <button
-    className={`
-        bg-[#2D5BFF] rounded-[8px] px-[32px] py-[12px] text-white
-        ${className}
-    `}
-    >
-        {children}
-        </button>
+const Button = ({ children, className, disabled, ...rest }: ButtonProps) => {
+    const generalStyle = 'rounded-md px-6 py-2'
+    const Btn = (classes: string) => {
+        return (
+        <button
+            className={` ${generalStyle} ${classes} ${className}  `}
+            disabled={disabled}
+            {...rest}
+        >
+            {children}
+        </button>)
+    }
+
+    return Btn(disabled ? 'bg-bg-disabled text-text-disabled' : 'bg-primary text-white')
 }
 
 
