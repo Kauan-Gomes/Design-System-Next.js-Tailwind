@@ -9,10 +9,12 @@
 * Tailwind 
 
 Para Baixar o projeto:
+
     git clone https://github.com/Kauan-Gomes/Design-System-Next.js-Tailwind.git
 
 
 Para Rodar em sua máquina e verificar a documentação dos componentes:
+
     npm install
     npm run storybook
 
