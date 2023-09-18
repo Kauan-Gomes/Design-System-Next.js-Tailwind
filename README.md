@@ -1,38 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ ## Biblioteca de componentes Com Next.JS, Tailwind e Storybook
+ 
 
-## Getting Started
+ Desenvolvimento de uma biblioteca de componentes poderosa com Next.js, Tailwind Css e Storybook. Usando o conceito de atomic Design e design Tokens, criando componentes de *link*, *input* e *button*
 
-First, run the development server:
+ ## Tools🛠
+* Next.js
+* Storybook
+* Tailwind 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Para Baixar o projeto:
+    git clone https://github.com/Kauan-Gomes/Design-System-Next.js-Tailwind.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Para Rodar em sua máquina e verificar a documentação dos componentes:
+    npm install
+    npm run storybook
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+A biblioteca vai abrir na porta [localhost:6006](http://localhost:6006/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Imagens do Projeto
 
-## Learn More
+![Botão](public/button.png)
 
-To learn more about Next.js, take a look at the following resources:
+![Input](public/input.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Link](public/link.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
